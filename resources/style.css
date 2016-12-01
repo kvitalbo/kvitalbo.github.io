@@ -1,0 +1,100 @@
+body {
+    width: 900px;
+    background-color: #4A453B;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+nav {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+nav a {
+    font-size: 32px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+a:hover {
+	color: #336600;
+}
+
+p {
+    line-height: 160%;
+    color: #f7f7f7;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-family: 'Roberto Slab', serif; /* only need quotes around font name if two words */
+    /* clear: both; will get rid of text-wrapping; anything you float, you should clear the next element */
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+    color: white;
+    margin-bottom: 16px;
+    font-family: 'Patrick Hand', cursive; /* the cursive is a fall-back font if browser doesn't support my font */
+}
+
+h2 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+}
+
+ul, ol {
+    font-size: 16px;
+    color: #f7f7f7;
+    margin-left: 32px;
+    font-family: 'Roberto Slab', serif;
+}
+
+img {
+    border-radius: 0.25em;
+    width: 100%;
+}
+
+a {
+    color: #FFD78C;
+    text-decoration: none;
+}
+
+#copyright {
+	color: gray;
+}
+
+.like {
+	color: pink;
+}
+
+#homepage {
+	column-count: 2;
+	column-gap: 24px;
+}
+
+.profile {
+	width: 140px;
+	border-radius: 100%;
+	margin-right: 18px;
+	border: 3px solid #F7F7F7;
+	float: left; /* the float pulls things off the page, can leave self notes with this feat */
+}
+
+header {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
